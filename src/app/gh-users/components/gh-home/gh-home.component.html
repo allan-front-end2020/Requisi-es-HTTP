@@ -1,1 +1,15 @@
-<p>gh-home works!</p>
+<div class="container">
+    <div class="search">
+        <mat-form-field appearance="outline">
+            <mat-label>Pesquisa o usuario</mat-label>
+            <input type="text" matInput [formControl]="usernameToFind" (key.enter)='showdialog()'>
+            <mat-error>
+                Informe um username para pesuisa
+            </mat-error>
+        </mat-form-field>
+        <button mat mat-stroked-button class='btn' [disabled]=usernameToFind.invalid (click)='showdialog()'>
+        
+           
+        </button>
+    </div>
+</div>
