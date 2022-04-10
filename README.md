@@ -6,6 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## About the project
+
+HTTP requests in Angular. Application that searches Github users using the official githib api.
+
+## Layout
+
+![api](https://user-images.githubusercontent.com/79630156/162603117-374beacc-3e2d-42d3-815d-404c3615586a.png)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
